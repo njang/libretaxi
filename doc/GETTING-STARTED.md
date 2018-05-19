@@ -34,7 +34,7 @@ Here is how to generate `libretaxi-development-credentials.json`:
 
 * Click on cog icon, select "Project settings", select "Service Accounts" tab. If it doesn't work, try [this url](https://console.firebase.google.com/project/libretaxi-development/settings/serviceaccounts/adminsdk).
 
-* Click on "Generate private key". Download file as `libretaxi-development-credentials.json` and put it to project directory.
+* Click on vertical ellipsis button (3 vertical dots) on _App Engine default service engine_, and select _Create key_, select _JSON_ as key type. Download file as `libretaxi-development-credentials.json` and put it to project directory.
 
 Keep in mind that credentials file is git-ignored. We do not recommend to add it to your git repository.
 
